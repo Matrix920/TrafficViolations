@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.amw.mws.myapplication.activity.AddViolationTypeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtViolationType"
+        android:hint="@string/txt_violation_type_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtTax"
+        android:inputType="numberDecimal"
+        android:hint="@string/txt_tax_title"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnAddViolation"
+        android:text="@string/btn_add"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+</LinearLayout>

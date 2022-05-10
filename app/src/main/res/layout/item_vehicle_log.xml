@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableRow>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_view_driver_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:id="@+id/textViewDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+</TableRow>
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_pluged_number_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:id="@+id/textViewPlugedNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registeration_date_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewRegisterationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:id="@+id/textViewdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_production_date_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewProductionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_category_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_type_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_is_cross_out_title"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewIsCrossOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+</TableRow>
+
+
+    <TextView
+        android:id="@+id/textViewLogID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/buttonCrossOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_is_cross_out_title" />
+
+
+
+
+</TableLayout>

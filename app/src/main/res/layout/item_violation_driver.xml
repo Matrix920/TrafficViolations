@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+    <TableRow android:weightSum="7">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/txt_violation_type_title"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+            android:id="@+id/textViewViolationType"
+            android:layout_weight="6"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    </TableRow>
+
+    <TableRow android:weightSum="7">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/txt_tax_title"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+            android:id="@+id/textViewTax"
+            android:layout_weight="6"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    </TableRow>
+
+    <TableRow android:weightSum="7">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/txt_date_title"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_weight="6"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    </TableRow>
+
+    <TableRow android:weightSum="7">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/txt_location_title"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_weight="6"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    </TableRow>
+
+    <TableRow android:weightSum="7" android:visibility="gone">
+        <TextView android:layout_weight="1" android:text="@string/txt_violation_type_title"/>
+        <TextView android:layout_weight="6"  android:id="@+id/textViewLogID" />
+    </TableRow>
+
+</TableLayout>
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="match_parent"
+        android:text="@string/btn_pay"
+        android:layout_height="wrap_content" />
+</LinearLayout>

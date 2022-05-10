@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hello_vehicles_fragment">hello vehicles fragment</string>
+    <string name="hello_violationslog_fragment">hello violations log fragment</string>
+    <string name="hello_violationstypes_fragment">hello violations types fragment</string>
+    <string name="Driver" />
+    <string name="txt_view_driver_title">Driver</string>
+    <string name="txt_pluged_number_title">P-Number</string>
+    <string name="txt_violation_type_title">Violation</string>
+    <string name="txt_location_title">Location</string>
+    <string name="txt_tax_title">Tax</string>
+    <string name="txt_payment_state_title">Payment</string>
+    <string name="btn_edit">Edit</string>
+    <string name="txt_registeration_date_title">Registeration</string>
+    <string name="txt_production_date_title">Production</string>
+    <string name="txt_category_title">Category</string>
+    <string name="txt_type_title">Type</string>
+    <string name="txt_is_cross_out_title">Cross out</string>
+    <string name="txt_date_title">Date</string>
+    <string name="btn_add">save</string>
+    <string name="btn_pay">Pay</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="edt_to_date">to date</string>
+    <string name="edt_from_date">from date</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_save">Save</string>
+    <string name="txt_violation_id_title">Violation id</string>
+    <string name="label_login">Login</string>
+    <string name="label_add_violation">Add Violation</string>
+    <string name="label_add_violation_type">Add Violation Type</string>
+    <string name="label_register">Register</string>
+    <string name="label_update_log_violation">Update Violation</string>
+    <string name="update_violation_type">Update Violation Type</string>
+    <string name="txt_taxi">Taxi</string>
+    <string name="txt_motor">Motor</string>
+    <string name="txtBus">Bus</string>
+    <string name="txt_private">Private</string>
+    <string name="txt_public">Public</string>
+
+    <string-array name="nav_item_activity_title">
+        <item>Violations Log</item>
+        <item>Violations Types</item>
+        <item>Vehicles Log</item>
+        <item>Search</item>
+        <item>My violations</item>
+    </string-array>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.amw.mws.myapplication.activity.RegisterActivity">
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtPlugedNumber"
+        android:inputType="number"
+        android:hint="@string/txt_pluged_number_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtDriver"
+        android:hint="@string/txt_view_driver_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="date"
+        android:id="@+id/edtRegisterationDate"
+        android:hint="@string/txt_registeration_date_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="date"
+        android:id="@+id/edtProductionDate"
+        android:hint="@string/txt_production_date_title"
+        android:layout_width="match_parent"/>
+
+  <!--
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtCategory"
+        android:hint="@string/txt_category_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtType"
+        android:hint="@string/txt_type_title"
+        android:layout_width="match_parent"/>
+-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioCategory"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioTaxi"
+            android:onClick="selectCategory"
+            android:checked="true"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_taxi"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radioMotor"
+            android:text="@string/txt_motor"
+            android:onClick="selectCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioBus"
+            android:onClick="selectCategory"
+            android:layout_weight="1"
+            android:text="@string/txtBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioType"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioPrivate"
+            android:layout_weight="1"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:onClick="selectType"
+            android:text="@string/txt_private"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radioPublic"
+            android:onClick="selectType"
+            android:text="@string/txt_public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnRegister"
+        android:text="@string/btn_register"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnLogin"
+        android:text="@string/btn_login"
+        android:layout_height="wrap_content" />
+</LinearLayout>

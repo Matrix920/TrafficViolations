@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/padding_bottom"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.amw.mws.myapplication.fragment.SearchFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSearchPlugedNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_pluged_number_title"/>
+
+        <RadioButton
+            android:id="@+id/radioSearchLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_location_title"/>
+
+        <RadioButton
+            android:id="@+id/radioSearchDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_view_driver_title"/>
+
+        <RadioButton
+            android:id="@+id/radioSearchDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_date_title"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/linearlayoutDate">
+
+        <EditText
+            android:id="@+id/edtFromDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_from_date"
+            android:inputType="date"/>
+
+
+
+        <EditText
+            android:id="@+id/edtToDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/edt_to_date"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/edtPlugedNumber"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_pluged_number_title"/>
+
+
+    <EditText
+        android:id="@+id/edtDriver"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_view_driver_title"/>
+
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/edtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/txt_location_title"/>
+
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_search"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTax"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewSearchResult"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+
+</FrameLayout>

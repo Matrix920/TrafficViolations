@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.amw.mws.myapplication.activity.AddViolationLogActivity">
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/edtPlugedNumber"
+            android:inputType="number"
+            android:hint="@string/txt_pluged_number_title"
+            android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtViolationID"
+        android:hint="@string/txt_violation_id_title"
+        android:inputType="number"
+
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtViolationType"
+        android:hint="@string/txt_violation_type_title"
+        android:editable="false"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtLocation"
+        android:hint="@string/txt_location_title"
+        android:layout_width="match_parent"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edtDate"
+        android:inputType="date"
+        android:hint="@string/txt_date_title"
+        android:layout_width="match_parent"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnAddViolationLog"
+        android:text="@string/btn_save"
+        android:layout_height="wrap_content" />
+</LinearLayout>
